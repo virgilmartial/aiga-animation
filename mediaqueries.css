@@ -1,0 +1,224 @@
+@media(max-width:1300px){
+    .direction{
+        left:75%;
+    }
+    .caja-texto-animado {
+        left: 40%;
+    }
+}
+
+@media(max-width:1120px){
+
+    .caja-texto-animado {
+        width: 400px;
+        left: 45%;
+    }
+    .caja-texto-animado div{
+        font-size: 90px;
+    }
+}
+
+@media(max-width:1085px){
+    header > div{
+        display: grid;
+        grid-template-columns: 20% 60% auto;
+    }
+    .aiga-header{
+        margin-top: 20px;
+    }
+    .aiga-header p  {
+        font-size: 40px; 
+        margin-left: 50px;
+    }
+    .aiga-header p:nth-child(2) {
+        margin-top: -1px;
+        margin-bottom: -1px;
+        margin-left: 15px;
+    }
+    nav{
+    width: 70%;
+    margin-bottom: 30%;
+    }
+    li > a {
+        font-size: 14px;
+    }
+    header::after{
+        top: 255px;
+    }
+    .buy-tickets{
+        top: 200px;  
+    }  
+    .direction{
+        left:75%;
+    }
+    .caja-texto-animado{
+        left: 45%;
+        top: 350px;
+
+    }
+}
+
+@media(max-width:1035px){
+    .direction{
+        left: 76%;
+    }
+    .direction > p {
+        font-size: 15px; 
+    }
+    .buy-tickets{
+        left: 85%; 
+    }  
+}
+@media(max-width:860px){
+    .buy-tickets{
+        left: 82%; 
+    } 
+    .direction{
+        left: 75%;
+    }
+    .caja-texto-animado{
+        left: 45%;
+        top: 350px;
+    }
+}
+
+@media(max-width:800px){
+    header img{
+        display: none;
+    }
+    
+    /*Menú desplgado*/
+    nav {
+        width: 100%;
+        height: 50vh;
+        z-index: -1;
+        display: none;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-left: 450px;
+    }
+    nav::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+       background-color: salmon;
+       z-index: 1;
+       display: none;
+    }
+    /*Menú desplgado*/
+
+
+   nav li{
+       width: 100%;
+   }
+   nav a{
+       width: 150px;
+   }
+   input {
+       position: absolute;
+       left: 650px;
+   }
+
+
+    
+    .menu{
+        display: block;
+        position: absolute;
+        top: 33px;
+        left: 90%;
+    }
+    #btn-menu{
+        display: flex;
+    }
+    #btn-menu:checked + nav{
+        margin-left: 400pxs;
+        
+    }
+
+    .menu:hover{
+        cursor: pointer;
+        color: var(--color-secondary);
+        transition: .3s ease-in-out;
+    }
+    .buy-tickets{
+        display: none;
+    } 
+    header::after{
+        top: 85px;
+    } 
+    
+    .direction {
+        top: 110px;
+        left: 40%;
+    }
+
+    .aiga-header p  {
+        font-size: 14px; 
+        margin-left: 20%;
+    }
+    .aiga-header{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .aiga-header p:nth-child(2) {
+        margin-left: 11%;
+    }
+    .texto-telefono img {
+        display:none;
+    }
+
+    .caja-texto-animado{
+        left: 40%;
+        top: 200px;
+    }
+    .texto-telefono{
+        display: none
+    }
+
+
+}
+@media(max-width:850px){
+    .direction{
+        left: 70%;
+    }
+}
+
+@media(max-width:790){
+    .direction{
+        left: 68%;
+    }
+}
+@media(max-width:550px){
+    .direction{
+        left: 60%
+    }
+    .menu{
+        left: 85%;
+    }
+
+    header > div {
+        grid-template-columns: 30% 20% auto;
+    }
+
+}
+@media(max-width:393px){
+    .menu{
+        left: 80% ;
+    }
+
+}
+@media(max-width:350px){
+    .menu{
+        left: 75%;
+    }
+
+    header > div {
+        grid-template-columns: 50% auto;
+    }
+}
+
+
+
